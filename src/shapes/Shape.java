@@ -8,4 +8,8 @@ public abstract class Shape implements AreaCalculable, PerimeterCalculable {
         this.name = name;
         this.color = color;
   }
+
+  public void shapeData() {
+      System.out.println(this.name + " " + this.color);
+  }
 }

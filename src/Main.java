@@ -1,16 +1,26 @@
 import shapes.Circle;
+import shapes.Shape;
 import shapes.Square;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Square square = new Square("square", "red");
-        Circle circle = new Circle("circle", "blue");
+        Shape square = new Square("square", "red");
+        Shape circle = new Circle("circle", "blue");
 
-        System.out.println(square.calculateArea(4));
-        System.out.println(square.calculatePerimeter(10));
+        List<Shape> shapes = new ArrayList<Shape>();
+        shapes.add(square);
+        shapes.add(circle);
 
-        System.out.println(circle.calculateArea(1));
-        System.out.println(circle.calculatePerimeter(5));
+
+        shapes.forEach(shape -> {
+            shape.shapeData();
+            System.out.println(shape.calculatePerimeter(10));
+            System.out.println(shape.calculateArea(10));
+            System.out.println();
+        });
 
     }
 }
