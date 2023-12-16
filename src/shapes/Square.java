@@ -1,18 +1,17 @@
 package shapes;
 
-public class Square extends  Shape {
-    private double side;
-
+public class Square extends Shape {
     public  Square(String name, String color) {
         super(name, color);
-        this.side = side;
     }
 
-    public double area (double side) {
-        return side * side;
+    @Override
+    public double calculateArea(double input) {
+        return Math.pow(input, 2);
     }
 
-    public  double perimeter(double perimeter) {
-        return 4*perimeter;
+    @Override
+    public double calculatePerimeter(double input) {
+        return 4 * input;
     }
 }

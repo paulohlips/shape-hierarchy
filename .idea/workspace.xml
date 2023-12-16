@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1a37cd-89a9-442a-8ee3-d6b6819e5101" name="Changes" comment="base shape class and inheritance">
-      <change afterPath="$PROJECT_DIR$/src/Circle.java" afterDir="false" />
+    <list default="true" id="0f1a37cd-89a9-442a-8ee3-d6b6819e5101" name="Changes" comment="creates package shapes">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/AreaCalculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/PerimeterCalculable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shapes/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shapes/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,18 +23,35 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "paulohlips"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2d6d349c-1c87-440b-b2de-eea3254f66f4" />
+        <option name="url" value="https://github.com/paulohlips/shape-hierarchy" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 8
 }]]></component>
   <component name="ProjectId" id="2ZdZmSnuwhXARnpK1aMKj572IhL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,6 +61,7 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true"
   }
@@ -80,7 +104,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702754499661</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creates circle">
+      <option name="closed" value="true" />
+      <created>1702755157908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702755157908</updated>
+    </task>
+    <task id="LOCAL-00003" summary="creates package shapes">
+      <option name="closed" value="true" />
+      <created>1702755284134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702755284134</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +148,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="base shape class and inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="base shape class and inheritance" />
+    <MESSAGE value="creates circle" />
+    <MESSAGE value="creates package shapes" />
+    <option name="LAST_COMMIT_MESSAGE" value="creates package shapes" />
   </component>
 </project>

@@ -1,15 +1,17 @@
 package shapes;
 
-public class Circle extends  Square {
+public class Circle extends Shape {
     public Circle(String name, String color) {
         super(name, color);
     }
 
-    public double area(double radius) {
-        return  Math.PI * radius * radius;
+    @Override
+    public double calculateArea(double input) {
+        return  Math.PI * Math.pow(input, 2);
     }
 
-    public  double perimeter(double radius) {
-        return 2 * Math.PI * radius;
+    @Override
+    public double calculatePerimeter(double input) {
+        return 2 * Math.PI * input;
     }
 }
