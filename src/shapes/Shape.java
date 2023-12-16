@@ -1,6 +1,6 @@
 package shapes;
 
-public class Shape {
+public abstract class Shape implements AreaCalculable, PerimeterCalculable {
     private String name;
     private String color;
 
