@@ -1,3 +1,5 @@
+package shapes;
+
 public class Shape {
     private String name;
     private String color;
@@ -5,5 +7,5 @@ public class Shape {
     public Shape(String name, String color) {
         this.name = name;
         this.color = color;
-  ;  }
+  }
 }

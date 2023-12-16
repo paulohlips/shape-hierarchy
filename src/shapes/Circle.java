@@ -1,3 +1,5 @@
+package shapes;
+
 public class Circle extends  Square {
     public Circle(String name, String color) {
         super(name, color);
